@@ -1,0 +1,6 @@
+node_modules/
+data/*.csv
+data/*.json
+data/*.tmp
+artifacts/
+__pycache__/

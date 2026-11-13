@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>外出申請</title><link rel="stylesheet" href="style.css"></head>
+<body><header><div class="brand">外出申請</div><div id="identity"></div><button id="logout" class="light" style="display:none">ログアウト</button></header>
+<div id="notice" role="status" aria-live="polite"></div><div id="busy" role="status" style="display:none">処理中…</div>
+<section id="login" class="login card"><div class="eyebrow">LOGIN</div><h1>ログイン</h1><form id="loginForm"><label>利用者ID<input id="loginId" autocomplete="username" required></label><label>パスワード<input id="loginPassword" type="password" autocomplete="current-password" required></label><button type="submit" class="primary wide">ログイン</button></form></section>
+<div id="app" style="display:none"><nav id="nav"></nav><main id="main"></main></div>
+<div id="overlay" style="display:none"><section id="dialog" class="card" role="dialog" aria-modal="true" aria-label="詳細"></section></div>
+<script src="config.js"></script><script src="domain.js"></script><script src="api.js"></script><script src="app.js"></script></body></html>

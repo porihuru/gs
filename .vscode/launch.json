@@ -1,0 +1,1 @@
+{"version":"0.2.0","configurations":[{"type":"node","request":"launch","name":"外出申請（CSVテスト）","program":"${workspaceFolder}/server.js","cwd":"${workspaceFolder}","console":"internalConsole","serverReadyAction":{"pattern":"GS_READY (http://localhost:[0-9]+)","uriFormat":"%s","action":"openExternally"}}]}
